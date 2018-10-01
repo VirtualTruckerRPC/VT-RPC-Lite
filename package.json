@@ -1,0 +1,41 @@
+{
+	"name": "vt-rpc-lite",
+	"version": "1.0.0",
+	"description": "The Lite Version of Virtual Trucker Rich Presence!",
+	"main": "index.js",
+	"dependencies": {
+		"discord-rpc": "^3.0.1",
+		"etcars-node-client": "^1.0.4",
+		"hoek": "^5.0.4",
+		"ip": "^1.1.5",
+		"nexe": "^2.0.0-rc.34",
+		"node-fetch": "^2.2.0",
+		"node-notifier": "^5.2.1",
+		"npm": "^6.4.1",
+		"pkg": "^4.3.4",
+		"update": "^0.7.4",
+		"uws": "^10.148.2",
+		"yargs": "^11.1.0"
+	},
+	"devDependencies": {},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/VirtualTruckerRPC/VT-RPC-Lite.git"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"dev": "node index.js --dev",
+		"dev-verbose": "node index.js --dev --logetcarsdata --logallactivity",
+		"prod": "node index.js --dev",
+		"compile": "node compile.js",
+		"release": "npm run compile && iscc .\\setup\\InnoSetupScript.iss"
+	},
+	"author": "VirtualTruckerRPC Team",
+	"contributors": [
+		"SgtBreadStick",
+		"dowmeister",
+		"jammerxd",
+		"Rein"
+	],
+	"license": "MIT"
+}
