@@ -41,11 +41,6 @@ You can choose if start Virtual Trucker Rich Presence immediately, installer wil
 
 
 VT-RPC Lite will be installed in `C:\Program Files (x86)\VT-RPC Lite\` .
-Log file can be found in:
-
-* Windows: `%appdata%\VT-RPC Lite\`
-* Linux: `/var/local/VT-RPC Lite/`
-* MacOS: `/home/Library/Preferences/VT-RPC Lite/`
 
 ## Check if VT-RPC Lite works
 

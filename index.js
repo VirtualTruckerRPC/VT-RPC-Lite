@@ -1,16 +1,14 @@
-// VIRTUAL TRUCKER RICH PRESENCE LITE 1.0.0
-
-const LogManager = require('./LogManager');
-const logger = new LogManager(); 
+// VIRTUAL TRUCKER RICH PRESENCE LITE 1.1.0
 const config = require('./config');
+var now = require("date-now")
 const packageInfo = require('./package.json');
 const argv = require('yargs').argv
 
 logger.info('VT-RPC Lite is starting...');
 logger.info(`Version: ${packageInfo.version}`);
 
-var RichPresenceManager = require('./RichPresenceManager');
-var presenceManager = new RichPresenceManager();
+var RPCManager = require('./RPCManager');
+var presenceManager = new RPCManager();
 presenceManager.init();
 
 // maintain node process running

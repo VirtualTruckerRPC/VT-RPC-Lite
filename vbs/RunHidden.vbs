@@ -1,5 +1,5 @@
-' VIRTUAL TRUCKER RICH PRESENCE LITE 1.0.0
+' VIRTUAL TRUCKER RICH PRESENCE LITE 1.1.0
 scriptdir = CreateObject("Scripting.FileSystemObject").GetParentFolderName(WScript.ScriptFullName)
 Set shell = CreateObject("Wscript.Shell")
 shell.CurrentDirectory = scriptdir
-shell.Run """" & scriptdir & "\VT-RPC-Lite.exe", 0, False
+shell.Run """" & scriptdir & "\VTRPC-Lite.exe", 0, False

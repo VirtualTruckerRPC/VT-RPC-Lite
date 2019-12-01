@@ -1,21 +1,19 @@
 {
 	"name": "vt-rpc-lite",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"description": "The Lite Version of Virtual Trucker Rich Presence!",
 	"main": "index.js",
 	"dependencies": {
-		"discord-rpc": "^3.0.1",
+		"1.0.1": "^1.0.0",
+		"assign-deep": "^1.0.1",
+		"date-now": "^1.0.1",
+		"discord-rpc": "^3.0.2",
 		"etcars-node-client": "^1.0.4",
-		"hoek": "^5.0.4",
-		"ip": "^1.1.5",
-		"nexe": "^2.0.0-rc.34",
-		"node-fetch": "^2.2.0",
-		"node-notifier": "^5.2.1",
-		"npm": "^6.4.1",
-		"pkg": "^4.3.4",
-		"update": "^0.7.4",
-		"uws": "^10.148.2",
-		"yargs": "^11.1.0"
+		"nexe": "^3.3.2",
+		"node-fetch": "^2.6.0",
+		"npm": "^6.10.3",
+		"uWebSockets.js": "github:uNetworking/uWebSockets.js#v15.10.0",
+		"yargs": "^13.3.0"
 	},
 	"devDependencies": {},
 	"repository": {
@@ -27,15 +25,12 @@
 		"dev": "node index.js --dev",
 		"dev-verbose": "node index.js --dev --logetcarsdata --logallactivity",
 		"prod": "node index.js --dev",
-		"compile": "node compile.js",
-		"release": "npm run compile && iscc .\\setup\\InnoSetupScript.iss"
+		"compile": "node compile.js"
 	},
 	"author": "VirtualTruckerRPC Team",
 	"contributors": [
 		"SgtBreadStick",
-		"dowmeister",
-		"jammerxd",
-		"Rein"
+		"jammerxd"
 	],
 	"license": "MIT"
 }

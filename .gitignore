@@ -63,3 +63,10 @@ typings/
 # VTRPC release directory
 release
 output
+
+# VTRPC VSCode Workspace
+VT-RPC.code-workspace
+
+# VTRPC .vscode & .vs
+.vscode/
+.vs/

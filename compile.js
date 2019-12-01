@@ -1,4 +1,4 @@
-// VIRTUAL TRUCKER RICH PRESENCE LITE 1.0.0
+// VIRTUAL TRUCKER RICH PRESENCE LITE 1.1.0
 
 const {
   compile
@@ -7,7 +7,7 @@ const {
 compile({
   input: './index.js',
   build: false,
-  name: 'release/VT-RPC-Lite',
+  name: 'release/VTRPC-Lite',
   ico: 'assets/vtrpc.ico'
 }).then(() => {
     console.log('success')
